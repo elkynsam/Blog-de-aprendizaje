@@ -1,0 +1,32 @@
+.navbar {
+  background: #3182ce;
+  padding: 14px 0;
+  box-shadow: 0 2px 8px rgba(49,130,206,0.07);
+}
+
+.navbar-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navbar-links a {
+  color: #e3e7ef;
+  margin-left: 22px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar-links a:hover {
+  color: #fff;
+}
